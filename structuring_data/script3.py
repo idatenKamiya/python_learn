@@ -1,4 +1,4 @@
-#When you want to print all the elements of a list, it's not efficient to repeat the same code like the example on the left.
+#When you want to print all the elements of a list, it's not efficient to repeat the same code like the example below.
 
 #You can use a for loop to make it easier.
 
