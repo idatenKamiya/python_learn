@@ -24,7 +24,7 @@ tictactoe = [['X', 'O', 'X'],   #0
              ['O', 'X', 'X']]   #3
 
 for row in range(0, len(tictactoe)):
-    for col in range(0, len(tictactoe[0])):
+    for col in range(0, len(tictactoe[row])):
         print(tictactoe[row][col], end=" ")
     print("")
 
