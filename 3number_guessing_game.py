@@ -1,5 +1,5 @@
 #a simple game to guess a number between 1-100
-#the number to guess is completelty random
+#the number to guess is completely random
 #check out the try-except format to stop the game from crashing
 
 
@@ -12,7 +12,7 @@ print("Welcome to the number guessing game!")
 while True:
     #get input
     try:
-        guess + int(input("What number am I thinking of? (1-100 or 0 to exit): "))
+        guess = int(input("What number am I thinking of? (1-100 or 0 to exit): "))
         num_of_tries += 1
     except:
         print("Please input a number 1-100!")
@@ -37,4 +37,4 @@ while True:
             else:
                 print("Too high, try again.")
 
-print("Thhanks for playing, hope to see you soon!")
+print("Thanks for playing, hope to see you soon!")
