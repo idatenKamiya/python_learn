@@ -18,7 +18,7 @@ print(my_mixed_tuple)
 
  #A tuple can also be created by using the tuple() constructor from that class
 list = [0,1,2] 
-list.tuble()
+list.tuple()
 
 #result: (0, 1, 2) 
 
